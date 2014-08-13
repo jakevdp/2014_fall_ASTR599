@@ -1,0 +1,14 @@
+extends: site.yaml
+
+mode: production
+media_url: /users/vanderplas/Astr599_2014/media/
+base_url: /users/vanderplas/Astr599_2014/
+
+deploy_root: deploy_production
+
+publisher:
+    ssh:
+        type: hyde.ext.publishers.ssh.SSH
+        username: jakevdp
+        server: gateway.astro.washington.edu
+        target: /www/astro/users/vanderplas/html/Astr599_2014
