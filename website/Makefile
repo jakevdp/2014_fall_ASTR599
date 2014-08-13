@@ -25,4 +25,4 @@ update: gen
 
 publish:
 	hyde gen -c production.yaml
-	rsync -e ssh -r deploy_production/ gateway.astro.washington.edu:/www/astro/users/vanderplas/html/Astr599/
+	rsync -e ssh -r deploy_production/ gateway.astro.washington.edu:/www/astro/users/vanderplas/html/Astr599_2014/
