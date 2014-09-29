@@ -112,10 +112,26 @@ description: Astr 599 Schedule
   </div>
 
   <div class="box column" id="schedule">
-    <h2>Weekly Seminar (Location: PAB 356A)</h2>
+    <h2>Weekly Seminar (Location: PAA 110)</h2>
     <p><i>Note: this is a tentative schedule, subject to change</i></p>
 
     <h3>Mon. Sept 29: Class Overview; Efficient Numerical Computing</h3>
+    <ul>
+      <li>Syllabus & Course Expectations</li>
+      <li> {{ notebook_link("Efficient Computing with Numpy", "notebooks/11_EfficientNumpy.ipynb") }}
+	<br>
+	We didn't get to this topic during the bootcamp, so we'll dive into it now.
+      <li><b>Homework: due Monday, October 6th</b><br>
+	The homework assignment is to complete Parts I and II of the Breakout listed in the above IPython notebook.  It will also give you practice working with Git and Github.  If you were not in the bootcamp, you may wish to review the <a href="http://www.astro.washington.edu/users/vanderplas/Astr599_2014/notebooks/07_GitIntro">GitHub lecture</a> that we did last week. You might also try reading through <a href="http://gitref.org/">http://gitref.org/</a>. We'll be turning-in our homework this way throughout the quarter!
+	<ol>
+	  <li>Create a new notebook called <font face="courier">HW1.ipynb</font> and in it complete Part 1 and 2 of the breakout from this week's lecture.  Use code cells for code, use heading and markdown cells for description, and make sure to execute the magic command <font face="courier">%matplotlib inline</font> to embed the resulting figures in the notebook.</li>
+	  <li>The assignment should be turned in by submitting a <i>pull request</i> to the github repository I've set up: <a href="https://github.com/uw-python/2014_Astr599_HW">uw-python/2014_Astr599_HW</a>.  First <a href="https://help.github.com/articles/fork-a-repo">Fork and clone</a> the repository (recall that forking is accomplished via the web interface on github.com).
+	  <li><a href="http://gitref.org/branching/">Create a new branch</a> on your clone (<font face="courier">git branch HW1_branch</font>, and <font face="courier">git checkout HW1_branch</font>), and in that branch create a new directory that is your github username.  Put your notebook in this directory, and use <font face="courier">git commit</font> to commit the result.</li>
+	  <li><a href="http://gitref.org/remotes/">Push the branch</a> to your fork (<font face="courier">git push origin HW1_branch</font>). Be aware that this will make your notebook public: anyone with web access can see what you wrote if they know where to look!</li>
+	  <li>From Github, <a href="https://help.github.com/articles/using-pull-requests#before-you-begin">submit a pull request</a> to the original repository to turn-in your work.</li>
+	</ol>
+      </li>
+    </ul>  
     <h3>Mon. Oct 6: Principles of Object-oriented Programming</h3>  
     <h3>Mon. Oct 13: Optimization and Minimization</h3>  
     <h3>Mon. Oct 20: Errors, Exceptions, & Debugging</h3>  
